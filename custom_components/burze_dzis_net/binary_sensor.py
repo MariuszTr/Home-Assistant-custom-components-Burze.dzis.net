@@ -48,7 +48,7 @@ WARNING_DESCRIPTIONS = {
         3: "w porywach powyżej 110 km/h"
     },
     'precipitation_warning': {
-        1: "deszcz: 25-40 mm / 24g/śnieg: 10-5 cm /24g",
+        1: "deszcz: 25-40 mm / 24g/śnieg: 10-15 cm /24g",
         2: "deszcz od 41 do 70 mm w ciągu 24 godzin/śnieg od 16 do 30 cm w ciągu 24 godzin/śnieg od 10 do 15 cm w ciągu 12 godzin",
         3: "deszcz powyżej 70 mm w ciągu 24 godzin/śnieg powyżej 30 cm w ciągu 24 godzin/śnieg powyżej 15 cm w ciągu 12 godzin"
     },
