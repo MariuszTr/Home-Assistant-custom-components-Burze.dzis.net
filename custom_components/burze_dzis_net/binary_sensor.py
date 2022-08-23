@@ -24,12 +24,12 @@ DEFAULT_SCAN_INTERVAL = timedelta(minutes=2, seconds=30)
 ATTRIBUTION = 'Information provided by Burze.dzis.net.'
 
 WARNING_TYPES = {
-    'frost_warning': ['mroz', 'Ostrzeżenie - Mróz', 'mdi:weather-snowy'],
-    'heat_warning': ['upal', 'Ostrzeżenie - Upał', 'mdi:weather-sunny'],
-    'wind_warning': ['wiatr', 'Ostrzeżenie - Wiatr', 'mdi:weather-windy'],
-    'precipitation_warning': ['opad', 'Ostrzeżenie - Opad', 'mdi:weather-pouring'],
-    'storm_warning': ['burza', 'Ostrzeżenie - Burza', 'mdi:weather-lightning-rainy'],
-    'tornado_warning': ['traba', 'Ostrzeżenie - Trąba', 'mdi:weather-hurricane'],
+    'frost_warning': ['mroz', 'Mróz', 'mdi:weather-snowy'],
+    'heat_warning': ['upal', 'Upał', 'mdi:weather-sunny'],
+    'wind_warning': ['wiatr', 'Wiatr', 'mdi:weather-windy'],
+    'precipitation_warning': ['opad', 'Opady', 'mdi:weather-pouring'],
+    'storm_warning': ['burza', 'Burza', 'mdi:weather-lightning-rainy'],
+    'tornado_warning': ['traba', 'Trąba', 'mdi:weather-hurricane'],
 }
 WARNING_DESCRIPTIONS = {
     'frost_warning': {
@@ -48,7 +48,7 @@ WARNING_DESCRIPTIONS = {
         3: "w porywach powyżej 110 km/h"
     },
     'precipitation_warning': {
-        1: "deszcz od 25 do 40 mm w ciągu 24 godzin/śnieg od 10 do 15 cm w ciągu 24 godzin",
+        1: "deszcz: 25-40 mm / 24g/śnieg: 10-5 cm /24g",
         2: "deszcz od 41 do 70 mm w ciągu 24 godzin/śnieg od 16 do 30 cm w ciągu 24 godzin/śnieg od 10 do 15 cm w ciągu 12 godzin",
         3: "deszcz powyżej 70 mm w ciągu 24 godzin/śnieg powyżej 30 cm w ciągu 24 godzin/śnieg powyżej 15 cm w ciągu 12 godzin"
     },
